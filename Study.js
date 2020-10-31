@@ -1,4 +1,4 @@
-let x = "abc(def)B4B(jkl)mnos"
+let x = "abc(def)B4B(jkl)"
 
 function removeParentheses(s){
     return s.replace(/\(.*\)/, "");
